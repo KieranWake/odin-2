@@ -5,6 +5,13 @@
 function testAssignment() {
     let sum = "30"; 
     sum = Number(sum) + 40; 
+
     console.log(Number(sum)); 
+
+    let num = (4 * 7) + 4; 
+    num += num * 4;
+    console.log(num);
+
+
 }
 testAssignment();
