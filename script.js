@@ -24,5 +24,13 @@ function fixedDecimal() {
     const decimalOne = 1.987654321; 
     const fixedOne = decimalOne.toFixed(1); 
     console.log(fixedOne);
+    
+    const decimalTwo = 2.987654321; 
+    const fixedTwo = decimalTwo.toFixed(1);
+    console.log(fixedTwo);
+
+    
+
+
 } 
 fixedDecimal();
