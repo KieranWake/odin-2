@@ -15,3 +15,6 @@ function testAssignment() {
 
 }
 testAssignment();
+
+//Challenge 2: Sorting Decimals! 
+//Description: Declare a function that takes two variables assigned with long decimals - 
