@@ -18,3 +18,11 @@ testAssignment();
 
 //Challenge 2: Sorting Decimals! 
 //Description: Declare a function that takes two variables assigned with long decimals - 
+//Then use subtraction assignment to solve for the difference. 
+
+function fixedDecimal() {
+    const decimalOne = 1.987654321; 
+    const fixedOne = decimalOne.toFixed(1); 
+    console.log(fixedOne);
+} 
+fixedDecimal();
