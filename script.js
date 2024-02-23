@@ -44,5 +44,9 @@ function operatorTest() {
     let str = "12"; 
     str -= Number(str) * 4;
     console.log(str);
+
+    let result = "40"; 
+    result *= parseInt(result) + 15;
+    console.log(result);
 }
 operatorTest();
