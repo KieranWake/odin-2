@@ -21,16 +21,14 @@ testAssignment();
 //Then use subtraction assignment to solve for the difference. 
 
 function fixedDecimal() {
-    const decimalOne = 1.987654321; 
-    const fixedOne = decimalOne.toFixed(1); 
-    console.log(fixedOne);
-    
-    const decimalTwo = 2.987654321; 
-    const fixedTwo = decimalTwo.toFixed(1);
-    console.log(fixedTwo);
+    let decimalOne = 1.987654321; 
+    decimalOne = parseFloat(decimalOne.toFixed(1)); 
+    console.log("Decimal One:", decimalOne);
 
-    
+    let decimalTwo = 2.987654321; 
+    decimalTwo = parseFloat(decimalTwo.toFixed(1)); 
+    console.log("Decimal Two:", decimalTwo); 
 
-
+    return decimalOne * decimalTwo; 
 } 
-fixedDecimal();
+console.log(fixedDecimal());
