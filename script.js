@@ -48,5 +48,9 @@ function operatorTest() {
     let result = "40"; 
     result *= parseInt(result) + 15;
     console.log(result);
+
+    let testing = "300";
+    testing /= parseInt(testing) * 50;
+    console.log(testing);
 }
 operatorTest();
