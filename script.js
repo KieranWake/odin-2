@@ -32,3 +32,17 @@ function fixedDecimal() {
     return decimalOne * decimalTwo; 
 } 
 console.log(fixedDecimal());
+
+//Challenge 3: All Assignment Operators! 
+//Description: Just use all assignment operators with variables! 
+
+function operatorTest() {
+    let num = 3; 
+    num += num * 4;
+    console.log(num);
+
+    let str = "12"; 
+    str -= Number(str) * 4;
+    console.log(str);
+}
+operatorTest();
