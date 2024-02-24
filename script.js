@@ -52,5 +52,10 @@ function operatorTest() {
     let testing = "300";
     testing /= parseInt(testing) * 50;
     console.log(testing);
+
+    let x = 3; 
+    let y = 4;
+    x += y; 
+    console.log(x += y);
 }
 operatorTest();
