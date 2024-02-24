@@ -78,3 +78,12 @@ operatorTest();
 
 //Change the line that calculates y so the box is 200px high, but the 200 is calculated using -
 //the numbers 50 and 3, the multiplication operator, and the addition assignment operator.
+
+let x = 50; let y = 50;
+
+// Edit the two lines below here ONLY
+x = 50;
+y = 50;
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, x, y);
