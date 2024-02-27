@@ -84,7 +84,7 @@ let x = 50; let y = 50;
 // Edit the two lines below here ONLY
 x *= 4; 
 console.log(x);
-y = 800 / 4 - 50;
+y += 50 * 3;
 console.log(y);  
 
 ctx.fillStyle = 'green';
