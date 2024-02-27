@@ -82,7 +82,8 @@ operatorTest();
 let x = 50; let y = 50;
 
 // Edit the two lines below here ONLY
-x = 7 + 43; 
+x = 830 % 290; 
+console.log(x);
 y = 25 * 3;  
 
 ctx.fillStyle = 'green';
