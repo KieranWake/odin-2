@@ -98,6 +98,6 @@ console.log(y);
 function compareTest() {
     let x = 5;
     let y = 4; 
-    return x === y;
+    return x !== y;
 }
 console.log(compareTest()); 
