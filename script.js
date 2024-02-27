@@ -82,7 +82,7 @@ operatorTest();
 let x = 50; let y = 50;
 
 // Edit the two lines below here ONLY
-x = 830 % 290; 
+x *= 4; 
 console.log(x);
 y = 800 / 4 - 50;
 console.log(y);  
