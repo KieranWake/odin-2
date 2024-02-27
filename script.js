@@ -87,8 +87,6 @@ console.log(x);
 y += 50 * 3;
 console.log(y);  
 
-ctx.fillStyle = 'green';
-ctx.fillRect(10, 10, x, y);
 
 //So far, in our numbers tutorial, we have covered the use of arithmetic operators and assignment operators -
 //Now, we'll be looking into comparison operators and testing them here. 
@@ -96,3 +94,10 @@ ctx.fillRect(10, 10, x, y);
 //COMPARISON OPERATORS: 
 //Used primarily to find boolean values (true/false). 
 //We proceed to act accordingly on the basis of that result.
+
+function compareTest() {
+    let x = 5;
+    let y = 4; 
+    return x === y;
+}
+console.log(compareTest()); 
